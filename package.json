@@ -1,0 +1,33 @@
+{
+  "name": "homebridge-websocket-dti",
+  "version": "0.9.15",
+  "description": "DTI Websocket Plugin for Homebridge",
+  "license": "ISC",
+  "author": {
+    "name": "Prakash"
+  },
+  "keywords": [
+    "homebridge",
+    "homebridge-plugin",
+    "homekit",
+    "siri",
+    "websocket",
+    "dti",
+    "node-RED"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cylon147/homebridge-websocket-DTI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cylon147/homebridge-websocket-DTI/issues"
+  },
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.6"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "ws": "^6.1.2"
+  }
+}

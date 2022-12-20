@@ -1,0 +1,31 @@
+{
+    "pluginAlias": "websocket-dti",
+    "pluginType": "platform",
+    "singular": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "title": "Name",
+                "type": "string",
+                "default": "websocket-dti",
+                "minLength": 1,
+                "required": true
+            },
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "default": "websocket-dti",
+                "minLength": 1,
+                "required": true
+            },
+            "port": {
+                "title": "Port",
+                "type": "integer",
+                "default": 4050,
+                "required": true
+            }
+
+        }
+    }
+}
